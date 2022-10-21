@@ -1,4 +1,222 @@
 
+// fn main() {
+//     let org_arr = [1, 2,3,5,6,8, 10, 11];
+//     let sub_arr = [2,3,8];
+
+//     let mut i = 0;
+//     let mut j = 0;
+//     let mut count =0 ;
+
+//     while i < sub_arr.len() && j < org_arr.len(){
+
+//         if org_arr[j] == sub_arr[i] {
+//             i +=1;
+//             j+=1;
+
+//             count +=1;
+
+//         }
+//         else {
+//             //i = i-j+1;
+            
+//             j = j-i +1 ;
+
+//             i =0; 
+            
+//         }
+//         println!("i:{}",i);
+//         println!("j:{}",j);
+//     }
+
+//     if count == sub_arr.len(){
+//         println!("True");
+//     }
+//     else {
+//         println!("False");
+//     }
+
+// }
+
+
+// fn main() {
+//     let org_arr = [1, 2,3,5,6,8, 10, 11];
+//     let sub_arr = [2,3,8];
+//     let res = is_child(org_arr, sub_arr);
+
+//     println!("res:{}",res);
+//     }
+
+
+// fn is_child(dad:[i32;8] ,child:[i32;3]) -> bool {
+//     let mut i = 0;
+//     let mut j = 0;
+//     let mut count =0 ;
+
+//     while i < child.len() && j < dad.len(){
+
+//         if dad[j] == child[i] {
+//             i +=1;
+//             j+=1;
+
+//             count +=1;
+
+//         }
+//         else {
+//             //i = i-j+1;
+            
+//             j = j-i +1 ;
+
+//             i =0; 
+            
+//         }
+//     }
+
+//     if count == child.len(){
+//         return true;
+//     }
+//     else {
+//         return false;
+//     }
+// }
+
+
+// fn test(x: u32){
+
+// }
+
+// fn test_1(){
+
+// }
+
+// fn test_2(x:u32) -> u32{
+//     0
+// }
+
+
+// fn main(){
+//     let mut x = 5;
+//     let y = x;
+//     //x = x +1;
+//     // pointer
+//     let z = &mut x;
+
+//     *z = *z+1;
+
+
+    
+//    // println!("x:{}",x);
+//     println!("z:{:p}",z);
+//     println!("y:{}",y);
+
+//     let mut s1 = String::from("Hello");
+
+//     // Borrowing/Reference
+//     //let s2 = &s1;
+
+//     // Mutable borrowing
+//     let s2 = &mut s1;
+
+//     s2.push_str("World");
+//     // let s3 = &s1;
+
+//     // let s4 = &s1;
+
+//     // s1.push_str("World");
+
+//     // println!("s2:{}",s2);
+
+
+
+
+
+//     //println!("{}",s2);
+
+//     //let s3 = s1;
+//     // Ownership // drop   , move
+//     //println!("s1:{}", s1);
+
+
+
+//     // println!("len:{}",s1.len());
+//     // println!("capacity:{}", s1.capacity());
+
+//     // s1.push_str("World");
+//     // println!("len:{}",s1.len());
+//     // println!("capacity:{}", s1.capacity());
+
+//     // {
+//     //     let s3 = s2;
+        
+//     // }
+//     // println!("s1:{}",s1);
+//     // println!("s2:{}",s2);
+
+
+// }
+
+
+// // fn test() -> u32 {
+// //     8i32
+// // }
+
+
+
+// // fn test() -> u32 {
+// //     return 9;
+// // }
+
+
+// // fn test() -> u32 {
+// //     9
+// // }
+
+
+
+// fn main() {
+//     let s = String::from("hello");
+//     // let x = 5;
+//     // let res_x = change_2(&x);
+//     let res = change_1(&s);
+
+//     //Cách 1: clone 
+//     //let s1= s;
+
+//     //Cách 2: Borrowing/ Reference
+// }
+
+// fn change_1(some_string:&String) -> String {
+//     // let mut s = String::from(some_string);
+//     // s.push_str("Workd");
+//     //some_string.push_str(", world");
+//     some_string.to_string()
+//     //s
+
+// }
+
+
+// fn change_2(some_string:&i32) -> i32 {
+//     // let mut s = String::from(some_string);
+//     // s.push_str("Workd");
+//     //some_string.push_str(", world");
+//     *some_string
+//     //s
+
+// }
+
+
+
+
+
+
+
+// fn main(){
+//     let mut s = String::from("hello world");
+//     s.push_str("WOld");
+//     let hello = &s[0..5];
+//     let world = &s[6..11];
+
+// }
+
 
 
 //================================
